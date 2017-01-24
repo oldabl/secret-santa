@@ -4,7 +4,7 @@
   "description": "Make a seamless flawless and extremmely simple secret santa website",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "webpack-dev-server --config webpack.config.js --hot --inline --host localhost --port 8080"
   },
   "repository": {
     "type": "git",
@@ -28,6 +28,7 @@
     "babel-preset-stage-0": "^6.1.2",
     "babel-runtime": "^5.8.0",
     "webpack": "^1.12.2",
+    "webpack-dev-server": "^1.16.2",
     "css-loader": "^0.23.0",
     "style-loader": "^0.13.0",
     "vue-loader": "^7.3.0",
